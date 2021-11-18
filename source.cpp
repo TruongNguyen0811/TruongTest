@@ -9,6 +9,13 @@ int tong(int a, int b){
 int tich(int a, int b){
 	return a*b;
 }
+bool ChanLe(int a){
+	cout<<a;
+	if(a%2==0)
+		cout<<"Chan"
+	else
+		cout<<"Le"
+}
 
 int main()
 {
@@ -28,6 +35,7 @@ int main()
 	if(phepToan=='*'){
 		return tich;
 	}
+
 	system("pause");
 	return 0;
 }
