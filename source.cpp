@@ -7,6 +7,9 @@ int hieu(int a, int b){
 int tong(int a, int b){
 	return a+b;
 }
+int tich(int a, int b){
+	return a*b;
+}
 int hieu(int a, int b);
 
 int main()
@@ -23,6 +26,9 @@ int main()
 	{return hieu;}
 	if(pheptoan=='+'){
 		return tong;
+	}
+	if(phepToan=='*'){
+		return tich;
 	}
 	system("pause");
 	return 0;
