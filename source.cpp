@@ -4,6 +4,10 @@ int tong(int a, int b);
 int hieu(int a, int b){
 	return a-b;
 }
+int tong(int a, int b){
+	return a+b;
+}
+int hieu(int a, int b);
 
 int main()
 {
@@ -17,6 +21,9 @@ int main()
 	cin >> phepToan;
 	if(pheptoan=='-')
 	{return hieu;}
+	if(pheptoan=='+'){
+		return tong;
+	}
 	system("pause");
 	return 0;
 }
